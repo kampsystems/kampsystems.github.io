@@ -1,0 +1,62 @@
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1000px;
+    }
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-image: url("MBP-coding.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.picture {
+  display: block;
+  width: 35%;
+  height: 35%;
+  margin: 40px auto 40px;
+  border-radius: 50%;
+}
+.container {
+  font-size: 19px;
+}
+.link {
+  text-align: center;
+}
+.footer {
+  margin: 40px 0;
+}
+.scrolltext {
+  position: relative;
+  top: 35vh;
+  color: #ccff00;
+  font-size: 3vh;
+  font-weight: bold;
+}
+nav {
+  display: block;
+  width: 25px;
+  margin: 0 auto;
+}
+h1 {
+  /* hotpink = #FF69B4 */
+  color: #ccff00;
+  font-size: 9vh;
+  font-weight: bold;
+}
+h3 {
+  text-align: center;
+  margin: 20px
+}
+embed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
