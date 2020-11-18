@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $('h1').typeIt({
-    strings: ["{Hello world!}", "{My name is Arben Allmeta}"],
+    strings: ["{Hello world!}", "{This is KAMP Systems}"],
     speed: 150,
     breakLines: false,
     deleteDelay: 800,
