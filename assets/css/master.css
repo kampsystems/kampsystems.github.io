@@ -8,7 +8,7 @@ html, body {
   padding: 0;
 }
 .header {
-  background-image: url("MBP-coding.jpg");
+  background-image: url("KAMP-logo-v2.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -17,12 +17,41 @@ html, body {
   justify-content: center;
   text-align: center;
 }
-.picture {
+.sponsors {
   display: block;
-  width: 35%;
-  height: 35%;
+  width: 40%;
+  height: 40%;
   margin: 40px auto 40px;
-  border-radius: 50%;
+  border-radius: 10%;
+}
+.team {
+  display: block;
+  width: 80%;
+  height: 80%;
+  margin: 40px auto 40px;
+  border-radius: 10%;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.column4 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.picture {
+  display: inline;
+  height: 49%;
+  width: 49%;
 }
 .container {
   font-size: 19px;
@@ -36,9 +65,39 @@ html, body {
 .scrolltext {
   position: relative;
   top: 35vh;
-  color: #ccff00;
+  color: #0d7ded;
   font-size: 3vh;
   font-weight: bold;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #0d7ded;
 }
 nav {
   display: block;
@@ -47,7 +106,7 @@ nav {
 }
 h1 {
   /* hotpink = #FF69B4 */
-  color: #ccff00;
+  color: #0d7ded;
   font-size: 9vh;
   font-weight: bold;
 }

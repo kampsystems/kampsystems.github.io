@@ -1,4 +1,4 @@
-$(document).ready(function () {
+/*$(document).ready(function () {
   $('h1').typeIt({
     strings: ["{Hello world!}", "{This is KAMP Systems}"],
     speed: 150,
@@ -27,7 +27,7 @@ $(document).ready(function () {
 
   function pix1 () {
     $('#aboutme').typeIt({
-      strings: ['{About me}'],
+      strings: ['{About our problem}'],
       speed: 75,
       autoStart: true
     });
@@ -36,7 +36,7 @@ $(document).ready(function () {
 
   function pix2 () {
     $('#esbp').typeIt({
-      strings: ['{Summer Bridge}'],
+      strings: ['{Cosmic Dust Collector}'],
       speed: 100,
       autoStart: true
     });
@@ -45,10 +45,11 @@ $(document).ready(function () {
 
   function pix3 () {
     $('#resume').typeIt({
-      strings: ['{Resume}'],
+      strings: ['{Pictures}'],
       speed: 100,
       autoStart: true
     });
     return;
   }
 });
+*/
