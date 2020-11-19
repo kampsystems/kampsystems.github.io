@@ -8,10 +8,10 @@ html, body {
   padding: 0;
 }
 .header {
-  background-image: url("KAMP-logo-v2.jpg");
+  background-image: url("KAMP-logo-v5.jpg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 35vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,7 +48,12 @@ html, body {
   clear: both;
   display: table;
 }
-.picture {
+.picture1 {
+  display: inline;
+  height: 100%;
+  width: 100%;
+}
+.picture2 {
   display: inline;
   height: 49%;
   width: 49%;
