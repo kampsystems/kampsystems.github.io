@@ -74,7 +74,7 @@ html, body {
   font-size: 3vh;
   font-weight: bold;
 }
-ul {
+.unorderlist {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -85,10 +85,12 @@ ul {
   top: 0;
 }
 
-li {
+.orderlist {
   float: left;
 }
-
+.video {
+  text-align: center;
+}
 li a {
   display: block;
   color: white;
